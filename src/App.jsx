@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import PlayerList from './component/PlayerList';
 import PlayerDetails from './component/PlayerDetails';
+import PlayerForm from './component/PlayerForm';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Route path="/"element={<Home />} />
       <Route path="/playerList" component={PlayerList} />
       <Route path="/playerDetails" component={PlayerDetails} />
+      <Route path="/playerForm" component={PlayerForm} />
     </Routes>
   </Router>
   );
