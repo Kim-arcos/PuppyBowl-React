@@ -9,6 +9,7 @@ import './styles.css';
 function App() {
   return (
    <Router>
+    <NavBar />
     <Routes>
       <Route path="/"element={<Home />} />
       <Route path="/playerList" component={PlayerList} />
@@ -20,7 +21,11 @@ function App() {
 }
 
 function Home() {
-  return <h1>Welcome to the Puppy Bowl!</h1>;
+  return (
+    <div className="home">
+      <h1>Welcome to the Puppy Bowl!</h1>
+    </div>
+  );
 }
   
 

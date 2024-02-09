@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import PlayerDetails from "./PlayerDetails";
+import PlayerDetails from "./PlayerDetails.jsx";
 
 const PlayerList = () => {
     const [players, setPlayers] = useState([]);

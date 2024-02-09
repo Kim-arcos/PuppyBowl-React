@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #9fb4b8;
+    padding: 20px;
+    font-family:sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar li {
+    margin: 0 0px;
+  }
+  
+  .navbar a {
+    text-decoration: underline;
+    color: #022b5a;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: monospace;
+  }
+  
+  .navbar a:hover {
+    color: #ffffff;
+  }
+  

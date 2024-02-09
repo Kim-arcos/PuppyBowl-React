@@ -12,7 +12,7 @@ const handleSubmit =(event) => {
 
 return (
     <form onSubmit={handleSubmit}>
-        <label htmlfor="name">Name:</label>
+        <label htmlFor="name">Name:</label>
         <input type="text" name="name" value={name} onChange={(e) =>setName(e.target.value)} />
 
         <label htmlFor="breed">Breed:</label>
