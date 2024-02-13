@@ -11,10 +11,10 @@ function App() {
    <Router>
     <NavBar />
     <Routes>
-      <Route path="/"element={<Home />} />
-      <Route path="/playerList" component={PlayerList} />
-      <Route path="/playerDetails" component={PlayerDetails} />
-      <Route path="/playerForm" component={PlayerForm} />
+      <Route path="/" element={<Home />} />
+      <Route path="/playerList" element={<PlayerList />} />
+      <Route path="/playerDetails" element={<PlayerDetails /> } />
+      <Route path="/playerForm" element={<PlayerForm />} />
     </Routes>
   </Router>
   );
